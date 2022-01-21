@@ -1,4 +1,30 @@
 
+
 body {
     background-color: #F8D8BB
 }
+
+h1 {
+    font-family: 'Rockwell';
+    color: #7C6C5D;
+
+}
+
+h3 {
+    font-family: 'Rockwell';
+    color: #7C6C5D;
+}
+
+p {
+    color: #1F1B17;
+
+}
+
+ul {
+    color: #1F1B17;
+}
+
+ol {
+    color: #1F1B17;
+}
+

@@ -24,3 +24,9 @@ h3 {
     width: 600px;
 
 }
+
+.right {
+    width: 600px;
+    float: left;
+    margin-left: 30px;
+}

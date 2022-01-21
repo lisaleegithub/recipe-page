@@ -15,16 +15,6 @@ h3 {
     color: #7C6C5D;
 }
 
-p {
-    color: #1F1B17;
-
+.description {
+    width: 600px
 }
-
-ul {
-    color: #1F1B17;
-}
-
-ol {
-    color: #1F1B17;
-}
-

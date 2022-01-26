@@ -1,32 +1,25 @@
 
-
 body {
     background-color: #F8D8BB
 }
 
-h1 {
-    font-family: 'Rockwell';
-    color: #7C6C5D;
-
-}
-
-h3 {
-    font-family: 'Rockwell';
+h1, h3 {
+    font-family: 'Nunito', sans-serif;
     color: #7C6C5D;
 }
+
+
 
 .description {
     width: 600px
 }
 
-.left {
+.left, .right {
     float: left;
     width: 600px;
 
 }
 
 .right {
-    width: 600px;
-    float: left;
     margin-left: 30px;
 }

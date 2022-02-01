@@ -4,26 +4,43 @@
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Laila&family=Montserrat+Alternates&family=Nunito+Sans:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   
   <body>
+    <div class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#morerecipes">More Recipes</a>
+    </div>
+
+
+    <div class="container">
+      <h2 class="title">
+        <span class="title-word title-word-1">Simple</span>
+        <span class="title-word title-word-2">and</span>
+        <span class="title-word title-word-3">Delicious</span>
+        <span class="title-word title-word-4">Spicy Vodka Pasta Recipe</span>
+      </h2>
+    </div>
+
 
     <div class="top">
-      <h1>Simple and Delicious Spicy Vodka Pasta Recipe</h1>
-      <p class="description"> I usually buy jarred pasta sauce when I make pasta because I think it is tasty enough. One day, I saw this spicy vodka pasta recipe by a celebrity which went viral so I decided to try and it was quite good! The original recipe was great but I added more butter, garlic, red pepper flakes, and parmesan cheese for extra flavor. You can also shrimp, chicken, or ground beef for added protein :) </p>
+      <!-- <h1>Simple and Delicious Spicy Vodka Pasta Recipe</h1> -->
+      <p class="description"> I usually buy jarred pasta sauce when I make pasta because I think it is tasty enough. One day, I saw this spicy vodka pasta recipe by a celebrity which went viral so I decided to try and it was quite good! The original recipe was great but I added more butter, garlic, red pepper flakes, and parmesan cheese for extra flavor. You can also shrimp, chicken, or ground beef for added protein :) </p><br>
     </div>
 
     <div class="left">
       <div>
-        <img src="https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18145018/fc77qd004-03-main.jpg" width="600px" height="450px" alt="Spicy Vodka Pasta Recipe">
-        <p>Photo credit: <a href="https://www.finecooking.com/recipe/rigatoni-with-spicy-tomato-vodka-sauce"> fine cooking</a></p>
+        <img src="https://www.halfbakedharvest.com/wp-content/uploads/2020/12/Spicy-Pesto-Pasta-Alla-Vodka-1.jpg" alt="Spicy-Vodka-Pasta-Image">
+        <p>Photo credit: <a href="https://www.halfbakedharvest.com/spicy-pesto-pasta-alla-vodka/" target="_blank" rel="noopener noreferrer"> Half Baked Harvest</a></p>
       </div>
     
       <div>
-        <h3>Ingredients (for 2 servings)</h3>
+        <h3>🍝 Ingredients (for 2 servings)</h3>
         <ul>
           <li>2 servings of pasta (I use rigatoni or shells) </li>
           <li>1/4 cup olive oil</li>
@@ -43,8 +60,8 @@
 
     <div class="right">
       <div>
-        <h3>How to make:</h3>
-        <ol>
+        <h3 id="myHeader">🍝 How to make:</h3>
+        <ol id="orderedList">
           <li>Heat a large pan with olive oil, garlic, and onion.</li>
           <li>Add tomato paste and cook until it appears darker in color.</li>
           <li>Add in the heavy cream and vodka.</li>
@@ -56,18 +73,18 @@
           <li>Add parmesan cheese and stir. Save some cheese to sprinkle later.</li>
           <li>Add more salt and pepper to taste.</li>
           <li>Top with a sprinkling of parmesan cheese and basil to serve.</li>
-          <li>Voila! Enjoy your pasta!</li> 
+           
         </ol>
       </div>
 
       <div>
-        <h3>Other spicy vodka pasta recipes to try:</h3>
-           <p>
-            <a href="https://www.halfbakedharvest.com/spicy-pesto-pasta-alla-vodka/"> Spicy pesto pasta alla vodka</a> by Half Baked Harvest (my favorite food blog)<br>
-            <a href="https://cooking.nytimes.com/recipes/1019924-pasta-alla-vodka"> Pasta alla vodka</a> by NY Times Cooking<br>
-          </p>      
-        </div>
+        <h3>🍝 Other spicy vodka pasta recipes to try:</h3>
+           <ul>
+            <li><a href="https://www.halfbakedharvest.com/spicy-pesto-pasta-alla-vodka/" target="_blank" rel="noopener noreferrer"> Spicy pesto pasta alla vodka</a> by Half Baked Harvest (my fave food blog)</li>
+            <li><a href="https://cooking.nytimes.com/recipes/1019924-pasta-alla-vodka" target="_blank" rel="noopener noreferrer"> Pasta alla vodka</a> by NY Times Cooking</li>
+           </ul>      
+      </div>
     </div>  
-
+    <script src="script.js"></script>
   </body>
 </html>
